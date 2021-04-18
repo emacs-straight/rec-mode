@@ -1,12 +1,12 @@
 ;;; rec-mode.el --- Major mode for viewing/editing rec files  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2009-2020  Free Software Foundation, Inc.
+;; Copyright (C) 2009-2021  Free Software Foundation, Inc.
 
 ;; Author: Jose E. Marchesi <jemarch@gnu.org>
 ;; Maintainer: Antoine Kalmbach <ane@iki.fi>
 ;; URL: https://www.gnu.org/software/recutils/
 ;; Package-Requires: ((emacs "25"))
-;; Version: 1.7.0
+;; Version: 1.8.0
 
 ;; This file is NOT part of GNU Emacs.
 
