@@ -6,7 +6,7 @@
 ;; Maintainer: Antoine Kalmbach <ane@iki.fi>
 ;; URL: https://www.gnu.org/software/recutils/
 ;; Package-Requires: ((emacs "25"))
-;; Version: 1.8.1
+;; Version: 1.8.2
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -2998,6 +2998,7 @@ onto the chosen record."
     ["---"                nil                :visible (derived-mode-p 'rec-edit-mode)]
     ["Finish editing"     rec-finish-editing :visible (derived-mode-p 'rec-edit-mode)]))
 
+;;;###autoload
 (define-derived-mode rec-mode nil "Rec"
   "A major mode for editing rec files.
 \\{rec-mode-map}"
